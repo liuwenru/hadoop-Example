@@ -1,0 +1,2 @@
+# hadoop-Example
+Hadoop学习笔记，记录了一些在自己工作中遇见的Hadoop问题，个人能力问题，很多问题的看法或者见解可能存在错误，如有讨论欢迎提出Issues
