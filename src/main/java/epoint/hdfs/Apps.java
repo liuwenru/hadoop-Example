@@ -1,6 +1,5 @@
 package epoint.hdfs;
 
-import com.sun.jdi.connect.Connector;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
@@ -17,7 +16,6 @@ public class Apps {
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", hdfsuri);
         FileSystem fs = FileSystem.get(URI.create(hdfsuri), conf);
-
         Path filepath=new Path(hdfsuri + "/" + "anaconda-ks.cfg");
         FSDataInputStream inputStream = fs.open(filepath);
         byte[] b = new byte[1024];
@@ -27,7 +25,7 @@ public class Apps {
         }
 
 
-        //fs.copyFromLocalFile(new Path("/Users/ijarvis/VirtualBoxVMs/iso/CentOS-7-x86_64-Minimal-1708.iso"),new Path(hdfsuri+"/"));
+        fs.copyFromLocalFile(new Path(args[0]),new Path(hdfsuri+"/"));
 
 
 

@@ -35,5 +35,5 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'epoint.hdfs.Apps'
 
