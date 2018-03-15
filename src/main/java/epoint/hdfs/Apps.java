@@ -26,7 +26,4 @@ public class Apps {
         }
         //fs.copyFromLocalFile(new Path(args[1]),new Path(hdfsuri+"/"));
     }
-
-
-
 }
