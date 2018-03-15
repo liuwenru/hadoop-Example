@@ -19,6 +19,9 @@ Hadoop学习笔记，记录了一些在自己工作中遇见的Hadoop问题，�
 
 
 
+- 二、基本运维操作
+  - 2.1 [使用namesecondary定时备份进行恢复namenode](docs/使用namesecondary定时备份进行恢复namenode.md)
+
 
 
 

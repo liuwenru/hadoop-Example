@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'hadoop_project'
+rootProject.name = 'hadoop_Example'
