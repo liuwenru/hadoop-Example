@@ -103,7 +103,7 @@ Shell> hiveserver2 #启动hiveserver2,默认监听端口为10000
 
 ```
 
-
+如何自定义自己的机器环境配置可以参考[官方文档的配置说明](https://cwiki.apache.org/confluence/display/Hive/Setting+Up+HiveServer2)
 
 
 
