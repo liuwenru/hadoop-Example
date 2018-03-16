@@ -18,7 +18,7 @@ Hadoop学习笔记，记录了一些在自己工作中遇见的Hadoop问题，�
 	- 1.3 [分布式生产环境的搭建—高可用环境搭建](docs/hdfs/分布式生产环境的搭建—高可用环境搭建.md)
 
 - 二、Hive数据仓库搭建
-	- 2.1 [Hive仓库搭建](docs/hive2/Hive仓库搭建.md)
+	- 2.1 [Hive仓库搭建](docs/hive2/Hive2仓库搭建.md)
 
 - 三、基本运维操作
   - 3.1 [使用namesecondary定时备份进行恢复namenode](docs/hdfs/使用namesecondary定时备份进行恢复namenode.md)
