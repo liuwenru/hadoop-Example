@@ -27,13 +27,20 @@ dependencies {
     compile group: 'org.apache.spark', name: 'spark-streaming_2.11', version: '2.2.1'
     compile group: 'org.apache.spark', name: 'spark-streaming-flume_2.11', version: '2.2.1'
     //Hive2 JDBC连接依赖包
-    compile group: 'org.apache.hive', name: 'hive-jdbc', version: '2.3.2'
-    compile group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: '2.7.5'
-    compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '2.7.5'
+    //compile group: 'org.apache.hive', name: 'hive-jdbc', version: '2.3.2'
+    //compile group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: '2.7.5'
+    //compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '2.7.5'
+
+    compile group: 'org.apache.hadoop', name: 'hadoop-auth', version: '2.7.5'
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '2.7.5'
+    compile group: 'org.apache.hadoop', name: 'hadoop-annotations', version: '2.7.5'
+
+
+
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
 
 // Define the main class for the application
-mainClassName = 'epoint.hdfs.Apps'
+mainClassName = 'ijarvis_hdfs.hdfs.Apps'
 

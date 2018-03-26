@@ -1,4 +1,4 @@
-package epoint.spark;
+package ijarvis_hdfs.spark;
 
 import org.apache.spark.*;
 import org.apache.spark.api.java.function.*;
